@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+  
+<body>
+
+<form class="parent-container" action="login page.html">
+<div class="container">
+  <h2>Register</h2>
+  <form id="registrationForm">
+    <label for="username">Username:</label>
+    <input type="text" id="username"br required placeholder="enter you name">
+
+    <label for="mobileNumber"><br>Mobile Number:</label>
+    <input type="tel" id="mobileNumber" pattern="[0-9]{10}" title="Enter a valid 10-digit mobile number" required placeholder="enter your phone number">
+
+
+    <label for="password"><br>Password:</label>
+    <input type="password" id="password" required placeholder="enter password">
+
+    <label for="confirmPassword"><br>Confirm Password:</label>
+    <input type="password" id="confirmPassword" required placeholder="confirmPassword">
+    <p>
+      Already have an Account
+    </p>
+    <a href="login page.html">Login</a>
+
+    <p id="errorMessage" class="error"></p>
+     <input type="submit" value="Register">
+  </form>
+</div>
+
+
+
